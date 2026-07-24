@@ -90,6 +90,20 @@ let d=JSON.stringify(obj4)
 console.log(d);
 console.log(JSON.parse(d));
 
+// storages
+
+let s="abc"
+window.localStorage.setItem("name",s)
+let e=window.localStorage.getItem("name")
+console.log(e);
+window.localStorage.setItem("password","12345")
+
+window.localStorage.removeItem("name")
+console.log(window.localStorage.getItem("name"));
+window.localStorage.setItem("id",98765)
+
+// window.localStorage.clear()
+
 
 
 
