@@ -1,4 +1,4 @@
-// 
+// DOM manipulation
 let b=document.body
 console.log(b);
 
